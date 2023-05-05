@@ -1,3 +1,5 @@
+//this code for server side which is used to communicate more the one computer on same network.
+
 import java.net.*;
 import java.io.*;
 class Server{
