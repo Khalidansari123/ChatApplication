@@ -1,3 +1,6 @@
+
+//this code for Only client side......
+
 import java.net.*;
 
 import javax.swing.JFrame;
