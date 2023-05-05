@@ -31,8 +31,8 @@ public class Client extends JFrame{
 
       try{
 
-        /* System.out.println("Sending request to server..");
-           socket = new Socket("127.0.0.1",7777);
+         System.out.println("Sending request to server..");
+         socket = new Socket("127.0.0.1",7777);
          System.out.println("connection done....");
 
           
@@ -42,14 +42,14 @@ public class Client extends JFrame{
 
 
 */
-           createGUI();
-           //startReading();
-          // startWriting();
+          createGUI();
+          startReading();
+          startWriting();
 
 
        }
         catch(Exception e){
-           // e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
